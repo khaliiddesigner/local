@@ -1,0 +1,169 @@
+/* 4TECH */
+
+@font-face {
+	font-family: "Droid";
+	src: url("DroidKufi-Regular_0.ttf");
+}
+
+* {
+	font-family: Droid,Tahoma;
+	text-decoration: none;
+	font-style: normal;
+	font-size: auto;
+}
+::-webkit-input-placeholder {
+	color: #fff;
+}
+::-moz-placeholder {
+	color: #fff;
+}
+:-moz-placeholder {
+	color: #fff;
+}
+.body * {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.right {
+	width:60%;
+}
+
+form {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.p {
+	width: 100%;
+	height: 30px;
+	padding: 1px 0px 30px 0px;
+	background: linear-gradient(#ff0234,#ff011c);
+	background: -webkit-linear-gradient(#ff0234,#ff011c);
+	background: -o-linear-gradient(#ff0234,#ff011c);
+	background: -moz-linear-gradient(#ff0234,#ff011c);
+}
+.p p {
+	color: #ffffff;
+}
+.logo {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav {
+	width: 100%;
+	height: 115px;
+	background-image: url('images/nav-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 1px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav a {
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	padding: 10px 10px 5px 10px;
+	font-size: 10pt;
+}
+.nav a:hover {
+	background: #e50339 ;
+}
+.center * {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.contents {
+	margin-top: 25px;
+	text-align: center;
+	margin-right: 50%;
+	margin-left: auto;
+}
+.post {
+	box-sizing: border-box;
+	width: 670px;
+	height: 265px;
+	padding: 0px 11px;
+	border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+}
+.title {
+	color: #e50339;
+	font-weight: lighter;
+	font-size: 14pt;
+	margin-bottom: -15px;
+	margin-right: -170px;
+}
+.text {
+	font-family: Tahoma;
+	color: #6c6c6c;
+}
+.plus td {
+	padding: 0px 18px;
+} 
+span {
+	color: #6c6c6c;
+	font-family: Tahoma;
+}
+span.admin a {
+	color: #e50339;
+}
+a.id{
+	color: #fff;
+	font-size: 10pt;
+	width: 90px;
+	height: 45px;
+	padding: 7px 7px;
+	border-bottom: 3px solid #c00330;
+	border-radius: 4px;
+	background: linear-gradient(#ff011c,#ff0440);
+	background: -webkit-linear-gradient(#ff011c,#ff0440);
+	background: -o-linear-gradient(#ff011c,#ff0440);
+	background: -moz-linear-gradient(#ff011c,#ff0440);
+}
+a.id:hover {
+	border-bottom: 0px;
+	padding-bottom: 10px;
+}
+.pstcon {
+	box-sizing: border-box;
+	padding: 10px;
+}
+.widgets {
+	width: 300px;
+	box-sizing: border-box;
+	margin-top: -855px;
+	margin-left: 45px;
+	position: fixed;
+}
+.gadget {
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 300px;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 10px;
+	margin:0;
+}
+.gadget h3 {
+	font-weight: normal;
+	box-sizing: border-box;
+	padding-top: 17px;
+	width: 300px;
+	height: 75px;
+	color: #fff;
+	font-size: 14pt;
+	text-align: center;
+	margin-right: -10px;
+	margin-top: -10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: linear-gradient(#ff011c,#ff0440);
+	background: -webkit-linear-gradient(#ff011c,#ff0440);
+	background: -o-linear-gradient(#ff011c,#ff0440);
+	background: -moz-linear-gradient(#ff011c,#ff0440);
+}
